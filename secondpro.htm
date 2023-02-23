@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+ <html> 
+<head>
+<style>
+body{
+background-image:url("https://img.freepik.com/free-vector/school-sports-team-abstract-concept-illustration-school-children-club-competitive-team-sports-kids-after-school-activity-local-tournament-athletic-exercise_335657-3498.jpg?w=2000");
+background-size:cover;
+background-repeat:no-repeat;
+
+</style>
+</head>
+ <body> 
+ <h1>Registration form</h1> 
+ <form> 
+ <fieldset>  
+ <label>Firstname </label><br> 
+<input type="text" name="name"><br>
+<label>Lastname</label><br>
+<input type="text" name="name"><br>
+<label>Sport/game</label><br>
+<select id="sports" placeholder="sports">
+<option value="volleyball">volleyball</option>
+<option value="cricket">cricket</option>
+<option value="basketball"><a href="new.htm">basketball</a></option>
+<option value="thorwball">thorwball</option>
+<option value="kho-kho">kho-kho</option>
+<option value="batminton">batminton</option>
+<option value="football">football</option>
+</select><br>
+<label>Are you physically fit</label><br>
+<input type="radio" id="gender" name="gender" value="Yes"/>Yes <br> 
+<input type="radio" id="gender" name="gender" value="NO"/>No <br/> 
+<label>Gender</label><br>
+<input type="radio" id="gender" name="gender" value="Male"/>Male <br> 
+<input type="radio" id="gender" name="gender" value="Female"/>Female <br/> 
+ <input type="radio" id="gender" name="gender" value="other"/>other<br/> 
+<label>Phone : </label>+91
+<input type="text"phone= "phone"><br>
+<label>Parent name</label><br> 
+<input type="text" name="name"><br>
+<label>Phone : </label>+91
+<input type="text"phone= "phone"><br>
+
+<br> Resident Address:<br> 
+<textarea rows="5" cols="50"></textarea><br></br> 
+<label>Enter your email</label><br> 
+<input type="email" name="email"><br> 
+<button onclick="myfunction()">submit</button>
+<script>
+function myfunction(){
+alert("you have successfully registered");
+}
+</script>
+</fieldset> 
+</form> 
+</body> 
+</html>
