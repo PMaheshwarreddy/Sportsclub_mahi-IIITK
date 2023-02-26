@@ -334,6 +334,29 @@ footer p {
   }  
  }
 }
+.news{
+  border: 3px groove ;
+  border-radius: 6px;
+}
+#bcci{
+  border-radius: 6px;
+}
+table{
+    padding-right: 20px;
+    border-spacing: 30px;
+}
+.des:hover{
+  text-align: center;
+    font-style: italic;
+    color: white;
+}
+.news:hover{
+    color: white;
+    transform: scale(1.15);
+    transition-duration: 1.7s;
+    background-color: rgb(44, 44, 116);
+
+}
 
  </style>
     <script>
@@ -389,9 +412,28 @@ for (const event of events) {
     </section>
     <section id="events">
       <h2>Upcoming Events</h2>
-      <a href="eve.html"></a>
-      <ul id="event-list">
-      </ul>
+      <table>
+            <tr>
+                <td>
+        <div class="news">
+            <img width="330px" height="190px"src="cup.jpg" id="bcci">
+            <p class="des">Intra sports meet 2023  </p>
+        </div>
+    </td>
+        <td>
+        <div class="news">
+            <img width="330px" height="190px"src="up.jpg" id="bcci">
+            <p class="des">Cricket Tournment coming soon</p>
+        </div>
+    </td><td>
+        <div class="news">
+            <img width="330px" height="190px"src="us.jpg" id="bcci">
+            <p class="des" >Batminton Tournment Coming soon.....</font></p>
+        </div>
+    </td>
+   
+    </tr>
+    </table>
     </section>
 
 </div>
@@ -442,7 +484,7 @@ for (const event of events) {
          </div> 
          
        </div>  
-       <p>Copyright ©  IIITK Sports Club 2023</p> 
+       <p>Copyright ©  Mahi Sports Club 2023</p> 
      </div>  
      </div>  
    </footer>  
